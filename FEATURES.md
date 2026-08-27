@@ -44,11 +44,11 @@
 
 初回の機能設計時にAIが記入し、その後は完成段階や恒常的な方針が変わった場合だけ更新する。
 
-- Product / users / core outcome:
-- Current maturity:
-- Core feature set / completion criteria:
-- Next target state:
-- Expansion Set:
-- Deferred lower-priority items / reasons:
-- Important flows / states / data decisions:
-- Durable feature decisions:
+- Product / users / core outcome: HTMLを初めて学ぶ日本語話者が、説明を読み、コードを書き、結果を見て、正しく書けたか確認できる。
+- Current maturity: コア確立。1画面で全6レッスンを完了できる初期版。
+- Core feature set / completion criteria: レッスン選択、コード編集、即時プレビュー、課題判定、次レッスン導線、進捗保存とリセットが一連で動作する。
+- Next target state: 初学者がHTMLの文書構造と主要な意味づけタグを自力で組み合わせられる状態。
+- Expansion Set: 今回はコア機能に集中し、追加機能は設定しない。
+- Deferred lower-priority items / reasons: アカウント、クラウド同期、ランキング、CSS/JavaScript教材はHTML基礎の成立に不要なため見送る。
+- Important flows / states / data decisions: コード・現在レッスン・完了状況は端末のlocalStorageに保存。判定失敗時は不足要素を具体的に示す。
+- Durable feature decisions: コード実行はスクリプト権限のないsandbox iframeに限定し、バックエンドを持たない。

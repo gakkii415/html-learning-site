@@ -38,8 +38,8 @@
 
 初回のUI作業時にAIが記入し、その後は恒常的な方向性が変わった場合だけ更新する。
 
-- Product / users / primary task:
-- Desired impression:
-- Reference products / what to borrow:
-- What to avoid:
-- Durable design decisions:
+- Product / users / primary task: HTML初心者が、迷わずコードを書き、同じ画面で結果と合否を確かめる。
+- Desired impression: 学校のプリントではなく、道具を実際に触る小さな制作スタジオ。明快で、少し手作業の温度がある。
+- Reference products / what to borrow: コードエディタの情報密度、ノートの書き込み感、ブラウザの出力面を役割ごとに分ける。特定ブランドの外観は模倣しない。
+- What to avoid: ダッシュボード型カード一覧、紫系グラデーション、装飾目的のアイコン、巨大な宣伝Hero、過剰な角丸。
+- Durable design decisions: 青みの紙色と濃いインクを基調に、朱色を操作・現在地、マスタードを学習の要点に使う。左のタグ列を進行軸にし、デスクトップはコードとプレビューを常時並置、モバイルはタブ切り替えにする。

@@ -46,12 +46,12 @@
 
 初回のコンテンツ設計時にAIが記入し、その後は完成段階や恒常的な方針が変わった場合だけ更新する。
 
-- Content value / audience / use context:
-- Content types / structure / quality bar:
-- Current maturity / coverage / depth:
-- Core content set / completion criteria:
-- Next target state:
-- Expansion Set:
-- Deferred lower-priority areas / reasons:
-- Sources / freshness / maintenance:
-- Durable content decisions:
+- Content value / audience / use context: HTML完全初心者が10〜20分程度の短い単位で、手を動かして基礎を理解する教材。
+- Content types / structure / quality bar: 各レッスンを「短い説明・具体的なミッション・スターターコード・要点・自動判定」で統一する。
+- Current maturity / coverage / depth: 文書構造、見出しと段落、リンク、リスト、画像の代替テキスト、要素の組み合わせを全6レッスンで扱う。
+- Core content set / completion criteria: 各レッスンが単独で実行でき、最終課題で主要タグを組み合わせたプロフィールページを作れる。
+- Next target state: HTML基礎編として内容が自己完結している状態を維持する。
+- Expansion Set: 今回はコア教材に集中し、追加教材は設定しない。
+- Deferred lower-priority areas / reasons: フォーム、表、メディア、CSS、JavaScriptは次のコース候補として見送る。
+- Sources / freshness / maintenance: 標準的なHTML要素とセマンティクスに限定。外部仕様へ依存する内容を増やす場合はMDN等の一次情報を確認する。
+- Durable content decisions: 専門用語だけで説明せず、タグの役割と実際の書き方を必ず対にする。
